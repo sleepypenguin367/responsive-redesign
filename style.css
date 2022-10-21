@@ -1,0 +1,126 @@
+.navbar{
+  position: fixed;
+  background-color:#000000;
+  text-align: center;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+.navbar li{
+  padding-left:30px;
+  padding-right:30px;
+}
+html {
+  scroll-behavior: smooth;
+ }
+ 
+a.rm {
+  text-decoration:none;
+}
+body { 
+  padding-top: 5%; 
+  
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.active {
+  background-color:white;
+  color: white;
+}
+
+.nav-link.active {
+  color: white;
+}
+
+nav .nav.nav-pills .nav-item .nav-link {
+  background-color: grey;
+  color: white;
+}
+nav .nav.nav-pills .nav-item .active {
+  background-color: white;
+  color: black;
+}
+nav .nav.nav-pills .nav-item .nav-link:hover {
+  background-color: rgb(186, 186, 186);
+  color: black;
+}
+
+h3 {
+  font-family:Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+#textspace0 {
+  border-radius: 20px;
+  background:rgb(0, 0, 0);
+  padding: 20px; 
+  width: 62.5rem;
+  height: 49rem;  
+}
+#space2 {
+  border-radius: 20px;
+  background:rgb(0, 0, 0);
+  padding: 20px; 
+  width: 62.5rem;
+  height: 41rem;  
+}
+#space3 {
+  border-radius: 20px;
+  background:rgb(0, 0, 0);
+  padding: 20px; 
+  width: 62.5rem;
+  height: 32rem;  
+}
+#space4 {
+  border-radius: 20px;
+  background:rgb(0, 0, 0);
+  padding: 20px; 
+  width: 62.5rem;
+  height: 43rem;  
+}
+#textspace1 {
+  border-radius: 20px;
+  background:white;
+  padding: 20px; 
+  width: 60rem;
+  height: 7rem;  
+}
+#textspace2 {
+  border-radius: 20px;
+  background:white;
+  padding: 20px; 
+  width: 60rem;
+  height: 9rem; 
+}
+#textspace3 {
+  border-radius: 20px;
+  background:white;
+  padding: 20px; 
+  width: 60rem;
+  height: 10.5rem;  
+}
+#textspace4 {
+  border-radius: 20px;
+  background:white;
+  padding: 20px; 
+  width: 60rem;
+  height: 12rem;  
+}
+#textspace5 {
+  border-radius: 5px;
+  background:rgba(255, 255, 255, 0.35);
+  border: 2px solid darksalmon;
+  padding: 20px; 
+  width: 60rem;
+  height: 7.5rem;  
+}
+#first {
+  background:rgb(0, 0, 0);
+  
+  padding: 20px; 
+  width: width;
+  height: 20rem;  
+}
